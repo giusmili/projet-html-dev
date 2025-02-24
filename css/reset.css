@@ -1,0 +1,31 @@
+/* Définir la taille de base pour le rem */
+html {
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    font: 1.6rem sans-serif; /* 16px */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #222;
+    letter-spacing: 0.1rem;
+    min-height: 100svh;
+}
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: xx-large;
+    margin: 0;
+    font-weight: normal;
+}
+p, figure{
+    margin: 0;
+}
+
