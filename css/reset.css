@@ -25,12 +25,16 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
     font-weight: normal;
 }
-details summary::-webkit-details-marker {
-    display: none; /* Masque la flèche pour les navigateurs WebKit (comme Chrome et Safari) */
-}
+
 p, figure, ol, ul, details summary{
     padding: 0;
     list-style: none;
     margin: 0;
 }
-
+details summary::-webkit-details-marker {
+    display: none;   /* Masque la flèche pour les navigateurs WebKit (comme Chrome et Safari) */
+    
+}
+details summary{
+    cursor: pointer;
+}
