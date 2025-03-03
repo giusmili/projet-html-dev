@@ -28,4 +28,53 @@ header{
         width: 100%;
         filter: drop-shadow(0 0 0.9rem #dc143c);
     }
+
+}
+picture{
+    max-width:60rem;
+    display: flex;
+    margin: 0 auto 1rem;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 100%;
+    }
+}
+article{
+    max-width: 80rem;
+    margin: 0 auto 2rem;
+    h2{
+        width: max-content;
+        padding: .5rem 1rem;
+        background-color: #222;
+        color: #fff;
+        font-size: x-large;
+    }
+    p{
+        border-top: solid .1rem #222;
+        padding: 1rem;
+        background-color: #efecec;
+    }
+}
+details summary{
+    background-color: #a40909;
+    color: #fff;
+    padding: .5rem 1rem;
+    h3 img{
+        filter: invert(100%);
+    }
+    
+}
+details ul li{
+    text-transform: uppercase;
+    padding: 1rem;
+    background-color: #fafafa;
+    
+} 
+details ul li:nth-child(2n + 1){
+    background-color: #0abfdf;
+    padding: 1rem;
+}
+footer *{
+    text-align: center;
 }
