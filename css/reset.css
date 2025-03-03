@@ -40,3 +40,8 @@ details summary::-webkit-details-marker {
 details summary{
     cursor: pointer;
 }
+img{
+    display: inline-block;
+    vertical-align: middle;
+    object-fit: cover;
+}
