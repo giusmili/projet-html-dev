@@ -54,3 +54,6 @@ img {
   vertical-align: middle;
   object-fit: cover;
 }
+span{
+  vertical-align: .3rem;
+}
