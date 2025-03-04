@@ -76,11 +76,11 @@ details ul li:nth-child(2n + 1) {
   padding: 1rem;
 }
 details > summary h3::before{
-  content: " + ";
+  content: " +📂 ";
   color: #fff;
 }
 details[open] > summary h3::before{
-  content: " - ";
+  content: " -📁 ";
 } 
 footer * {
   text-align: center;
