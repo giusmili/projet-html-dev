@@ -157,6 +157,7 @@ footer * {
   
   }
 }
+/* tablet */
 @media screen and (orientation: landscape){
   header{ 
     flex-direction: row; 
