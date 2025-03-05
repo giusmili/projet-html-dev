@@ -1,4 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-    console.log("loaded ok!!!");
+    console.log("Chargé");
 });
