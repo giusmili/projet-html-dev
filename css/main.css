@@ -3,16 +3,39 @@
 /* theme */
 
 header {
+  background-color: #222;
+  display: flex;
+  justify-content: space-between;
+  /* flex-direction: column; */
+  align-items: center;
   h1 {
     background-color: #222;
-    line-height: 8rem;
+    line-height: 8.5rem;
     color: #fff;
-    text-align: center;
+    /* text-align: center; */
     text-transform: uppercase;
     font-weight: bolder;
-    font-size: 3em;
+    font-size: 2.5em;
+    padding-left: 2rem;
     
    
+  }
+ 
+  nav ul{
+    display: flex;
+    align-items: center;
+ }
+  nav ul li *{
+    display: block;
+    color: #fff;
+    text-align: center;
+
+  }
+  nav ul li {
+    width: 15rem;
+    /* background-color:  #ccc; */
+    line-height: 8.5rem;
+    text-transform: uppercase;
   }
  
   
