@@ -29,6 +29,7 @@ header {
     display: block;
     color: #fff;
     text-align: center;
+    transition: all .8s ease-in-out;
 
   }
   nav ul li {
@@ -36,6 +37,12 @@ header {
     /* background-color:  #ccc; */
     line-height: 8.5rem;
     text-transform: uppercase;
+  }
+  /* survole */
+  nav ul li:hover a{
+    background-color:  #42414d;
+    color: #fff;
+    
   }
  
   
@@ -109,4 +116,63 @@ details[open] > summary h3::before{
 } 
 footer * {
   text-align: center;
+}
+/* mobile */
+@media screen and (max-width: 90.0rem){
+  body{
+    margin: 1%;
+  }
+    header{ 
+      flex-direction: column; 
+      h1{
+        font-size: 2rem;
+      }
+    }
+    .gallery-content {
+      width: auto;
+      margin: 5rem auto 2rem;
+    
+      .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+      }
+      
+    }
+    nav{
+      /* display: none; */
+    }
+    nav ul{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+   }
+
+   details summary {
+     h3{
+       font-size: 2rem;
+  
+    }
+    
+  
+  }
+}
+@media screen and (orientation: landscape){
+  header{ 
+    flex-direction: row; 
+    h1{
+      font-size: 2rem;
+    }
+  }
+  nav ul{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+ }
+ details summary {
+      h3{
+        font-size: xx-large;
+
+    }
+  }
 }
