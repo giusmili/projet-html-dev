@@ -10,7 +10,7 @@
 ```js
 
 const eventDate = new Date();
-console.log(eventDate.toLocaleString("en-GB", { timeZone: "UTC" }));
+console.log(eventDate.toLocaleDateString("fr-FR", { timeZone: "UTC" }));
 // 03/03/2025, 09:57:13
 ```
 
