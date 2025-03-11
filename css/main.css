@@ -115,9 +115,13 @@ footer * {
     margin: 0 1%;
   }
   header {
-    flex-direction: column;
+    display: block;
+   /*  flex-direction: column; */
     h1 {
       font-size: 2rem;
+    }
+    nav ul li{
+      width:100%;
     }
   }
   .gallery-content {
