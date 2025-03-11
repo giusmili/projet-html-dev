@@ -118,10 +118,13 @@ footer * {
     display: block;
    /*  flex-direction: column; */
     h1 {
+      width: auto;
       font-size: 2rem;
+      text-align: center;
     }
     nav ul li{
       width:100%;
+      
     }
   }
   .gallery-content {
