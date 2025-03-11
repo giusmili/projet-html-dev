@@ -18,20 +18,17 @@ header {
     font-size: 2.5em;
     padding-left: 2rem;
     width: max-content;
-    
-   
   }
- 
-  nav ul{
+
+  nav ul {
     display: flex;
     align-items: center;
- }
-  nav ul li *{
+  }
+  nav ul li * {
     display: block;
     color: #fff;
     text-align: center;
-    transition: all .8s ease-in-out;
-
+    transition: all 0.8s ease-in-out;
   }
   nav ul li {
     width: 15rem;
@@ -40,13 +37,10 @@ header {
     text-transform: uppercase;
   }
   /* survole */
-  nav ul li:hover a{
-    background-color:  #42414d;
+  nav ul li:hover a {
+    background-color: #42414d;
     color: #fff;
-    
   }
- 
-  
 }
 .gallery-content {
   max-width: 90rem;
@@ -94,10 +88,7 @@ details summary {
   padding: 0.5rem 1rem;
   h3 img {
     filter: invert(100%);
-
   }
-  
-
 }
 details ul li {
   text-transform: uppercase;
@@ -108,71 +99,67 @@ details ul li:nth-child(2n + 1) {
   background-color: #a29bfe;
   padding: 1rem;
 }
-details > summary h3::before{
+details > summary h3::before {
   content: " +📂 ";
   color: #fff;
 }
-details[open] > summary h3::before{
+details[open] > summary h3::before {
   content: " -📁 ";
-} 
+}
 footer * {
   text-align: center;
 }
 /* mobile */
-@media screen and (max-width: 90.0rem){
-  body{
+@media screen and (max-width: 90rem) {
+  body {
     margin: 0 1%;
   }
-    header{ 
-      flex-direction: column; 
-      h1{
-        font-size: 2rem;
-      }
+  header {
+    flex-direction: column;
+    h1 {
+      font-size: 2rem;
     }
-    .gallery-content {
-      width: auto;
-      margin: 5rem auto 2rem;
-    
-      .gallery-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 2rem;
-      }
-      
-    }
-  
-    nav ul{
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-   }
+  }
+  .gallery-content {
+    width: auto;
+    margin: 5rem auto 2rem;
 
-   details summary {
-     h3{
-       font-size: 2rem;
-  
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
     }
-    
-  
+  }
+
+  nav ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  details summary {
+    h3 {
+      font-size: 2rem;
+    }
   }
 }
 /* tablet */
-@media screen and (orientation: landscape){
-  header{ 
-    flex-direction: row; 
-    h1{
-      font-size: 2.5rem;  
+@media screen and (orientation: landscape) {
+  header {
+    flex-direction: row;
+    h1 {
+      font-size: 2.5rem;
+      white-space: nowrap;
     }
   }
-  nav ul{
+  nav ul {
     display: flex;
     align-items: center;
     flex-direction: row;
- }
- details summary {
-      h3{
-        font-size: xx-large;
-
+  }
+  details summary {
+    h3 {
+      font-size: xx-large;
     }
   }
 }
