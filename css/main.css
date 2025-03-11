@@ -17,6 +17,7 @@ header {
     font-weight: bolder;
     font-size: 2.5em;
     padding-left: 2rem;
+    width: max-content;
     
    
   }
@@ -120,7 +121,7 @@ footer * {
 /* mobile */
 @media screen and (max-width: 90.0rem){
   body{
-    margin: 1%;
+    margin: 0 1%;
   }
     header{ 
       flex-direction: column; 
